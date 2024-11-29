@@ -1,0 +1,93 @@
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration:none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color:#A6BED0 ;}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-color:#A6BED0 ;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-me,
+.experience,
+.education {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.experience ul,
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience li,
+.education li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience h3,
+.education h3 {
+    margin-top: 0;
+    color: #555;
+}
+
+.experience .dates,
+.education .dates {
+    font-size: 1em;
+    color: #777;
+}
+        /* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1rem;
+}

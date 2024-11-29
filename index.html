@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personale Portfolio</title>
+    <link rel="stylesheet" href="test.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="nav-menu">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section>
+    <video autoplay muted loop id="myVideo">
+        <source src="./3130284-uhd_3840_2160_30fps.mp4" type="video/mp4">
+      </video>
+<div class="card-container">
+    <div class="card">
+        <img class="image" src="malethabom.jpg" alt="my image" >
+      <h2>Malethabo Malatji</h2>
+      <p>Welcome to my personal portfolio website..</p>
+    </div>
+    <div class="buttons">
+      <a href="Malatji Malethabo resume.pdf" class="button" download>Download Resume</a>
+      <div class="icons">
+      <a href="https://www.linkedin.com/in/geraldinemalatji/"><i class='bx bxl-linkedin' width="24px" height="24px"></i></a>
+      <a href="https://github.com/geraoct"><i class='bx bxl-github' width="24px" height="24px"></i></a> 
+    </div>
+    </div>
+</div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 malethabo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu(){
+            const menu = document.querySelector(".menu-links")
+            const icon = document.querySelector(".menu-icon")
+
+            menu.classList.toggle('open')
+            icon.classList.toggle('open')
+        }
+    </script>
+</body>
+</html>
+
+
+
