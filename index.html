@@ -18,18 +18,20 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <nav class="nav-menu">
+        <nav id="nav-menu">
+         <div class="nav-menu">
             <div class="menu-icon" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <ul class="menu-links">
+            <div class="menu-links">
                 <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
+            </div>
+         </div>  
         </nav>
     </header>
 
@@ -63,8 +65,8 @@
             const menu = document.querySelector(".menu-links")
             const icon = document.querySelector(".menu-icon")
 
-            menu.classList.toggle('open')
-            icon.classList.toggle('open')
+            menu.classList.toggle("open")
+            icon.classList.toggle("open")
         }
     </script>
 </body>
