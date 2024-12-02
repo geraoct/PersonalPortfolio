@@ -21,6 +21,7 @@
 .nav-menu{
     display: inline-block;
     position: relative;
+    
 }
 
 .menu-icon{
@@ -44,6 +45,9 @@
     overflow: hidden;
     max-height: 0;
     transition: all 0.4 ease-out;
+    background-color: #333;
+    padding: 10px;
+    
 }
 .menu-links a{
     display: block;
@@ -85,11 +89,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 a {
     text-decoration: none;
     color: inherit;
-}
+  }
 
 ul {
     list-style: none;
@@ -102,6 +105,7 @@ header {
     padding: 20px;
     text-align: center;
     position: relative;
+    z-index: 999;
 }
 
 header .nav ul {
@@ -124,12 +128,18 @@ header .nav ul li a {
 
 header .nav ul li a:hover {
     color:#A6BED0 ;
-}
 
+}
+h1{ text-align: center;
+    padding: 30px;
+    color: #fff;
+    font-size: 2.5rem;
+
+
+}
     /* Flex container to align the card */
     .card-container {
         display: flex;
-        justify-content: center;
         align-items: center;
         height: 100vh; 
         margin: 0;

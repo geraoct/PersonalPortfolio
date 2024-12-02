@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personale Portfolio</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="script.js">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    
 </head>
 <body>
+
     <header>
         <nav class="nav">
             <ul>
@@ -36,35 +37,39 @@
         </nav>
     </header>
 
-<section>
-    <video autoplay muted loop id="myVideo">
-        <source src="./3130284-uhd_3840_2160_30fps.mp4" type="video/mp4">
-      </video>
-      <h1>Welcome to my personal portfolio website..</h1>
-<div class="card-container">
-    <div class="card">
-        <img class="image" src="malethabom.jpg" alt="my image" >
-      <h2>Malethabo Malatji</h2>
-      <p>Software Developer | Business Analyst | Project Manager</p>
-    </div>
-    <div class="buttons">
-      <a href="Malatji Malethabo resume.pdf" class="button" download>Download Resume</a>
-      <div class="icons">
-      <a href="https://www.linkedin.com/in/geraldinemalatji/"><i class='bx bxl-linkedin' width="24px" height="24px"></i></a>
-      <a href="https://github.com/geraoct"><i class='bx bxl-github' width="24px" height="24px"></i></a> 
-    </div>
-    </div>
-</div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 malethabo. All rights reserved.</p>
+    <div class="contact">
+        <form action="submit_form.php" method="POST">
+            <div class="form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <div class="form">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+        <div class="email">
+            <div class="icon"><box-icon type='logo' name='gmail'></box-icon><a href="mailto:malatjimalethabo@gmail.com">malatjimalethabo@gmail.com</a></div>
+            
         </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Malethabo. All rights reserved.</p>
     </footer>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="script.js"> 
     </script>
 </body>
 </html>
-
-
-

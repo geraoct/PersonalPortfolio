@@ -4,20 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="script.js">
+    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+        </nav>
+        <nav id="nav-menu">
+         <div class="nav-menu">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+         </div>  
         </nav>
     </header>
 
@@ -46,7 +64,7 @@
             <li>
                 <h3>Information Technology Intern at ABT</h3>
                 <p class="dates">October 2024 - Present</p>
-                <p></p>
+                <p>Developing websites using HTML and CSS,currently learning how to use Git and Python.</p>
             </li>
             <li>
                 <h3>End-User Technician Intern at SITA</h3>
@@ -81,5 +99,7 @@
             </div>
         </footer>
      </section>
+<script src="script.js"> 
+</script>
 </body>
 </html>

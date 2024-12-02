@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    
+}
 
 /* Header */
 header {
@@ -38,13 +41,20 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
+    
 }
 /* Contact Section */
-#contact {
-   padding: 80px 20px;
+.contact {
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
+   /* height: 100vh; */
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
 }
 
 #contact h2 {
@@ -53,12 +63,20 @@ body{
     margin-bottom: 40px;
     font-weight: 600;
 }
+.form{
+    display:grid;
 
+
+}
 form {
     max-width: 700px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    background:#e2d3b1;
+    padding: 4rem 4rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(20px);
 }
 
 form label {
@@ -83,7 +101,7 @@ form input:focus, form textarea:focus {
 
 form button {
     padding: 12px 20px;
-    background-color: #f9f9f9;
+    background-color: #fff;
     font-size: 1.1rem;
     border: none;
     border-radius: 30px;
@@ -93,18 +111,20 @@ form button {
 
 form button:hover {
     background-color: #333;
+    color: #fff;
 
 }
 .email{
     margin-top: 2rem;
-   background-color: #333;
+   background-color: #e2d3b1;
     max-width: 700px;
-    margin: 0 auto;
+    
     display: flex;
     flex-direction: column;
     border-radius: 30px;
     text-align: center;
-    color: #fff;
+    padding:12px 20px ;
+    
 }
 /* Footer Section */
 footer {
@@ -113,8 +133,14 @@ footer {
     text-align: center;
     padding: 20px 0;
     font-size: 1rem;
+    margin-top: 1rem;
 }
-
+.icon{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+}
 @media screen {
     
 }
