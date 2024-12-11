@@ -70,7 +70,7 @@ header {
 }
 
 body{
-    background-color:#A6BED0 ;
+    background-color:black ;
 }
 
 .container {
@@ -86,13 +86,16 @@ body{
 }
 
 h2 {
-    color: #333;
     font-size: 2em;
+    color: #fff;
 }
 
-p {
+.about-me p, .experience p,.education p {
+
     font-size: 1.1em;
     line-height: 1.6em;
+    background-color: #e2d3b1;
+    border-radius: 5px;
 }
 
 .experience ul,
@@ -101,9 +104,9 @@ p {
     padding: 0;
 }
 
-.experience li,
+.experience li,.about-me li,
 .education li {
-    background-color: #fff;
+    background-color: #e2d3b1;
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
