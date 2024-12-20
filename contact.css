@@ -54,7 +54,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 4rem;
+    padding-top:90px;
 }
 
 #contact h2 {

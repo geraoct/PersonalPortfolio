@@ -1,11 +1,18 @@
-  /* Header */
+*{
+  margin: 0;
+  padding: 0;
+}
+ /* Header */
   header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 23.5px;
     text-align: center;
-    position: relative;
+    justify-content: center;
+    position: fixed;
     z-index: 999;
+    width:100%;
+
 }
 
 header .nav ul {
@@ -33,6 +40,7 @@ header .nav ul li a:hover {
 
 #nav-menu{
   display: none;
+  position: relative;
 }
 
 .nav-menu{
@@ -49,7 +57,7 @@ header .nav ul li a:hover {
 }
 body{
   background-color: black;
-
+  font-family: 'Roboto', sans-serif;
 
 }
 .menu-icon span{
@@ -116,7 +124,7 @@ a {
 #portfolio h1 {
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: 60px;
   font-weight: 600;
   color: #fff;
 }
@@ -236,6 +244,9 @@ a {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    font-size: 1rem;
+    width: 100%;
+    position: relative;
   } 
   @media screen and (max-width: 500px){
     .nav{

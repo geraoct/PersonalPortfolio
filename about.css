@@ -88,8 +88,11 @@ body{
 h2 {
     font-size: 2em;
     color: #fff;
+    
 }
-
+.about-me h2{
+    padding-top: 50px;
+}
 .about-me p, .experience p,.education p {
 
     font-size: 1.1em;
